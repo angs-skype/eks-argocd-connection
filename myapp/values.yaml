@@ -156,8 +156,7 @@ volumes:
 volumeMounts: 
   - name: html-volume
     mountPath: /usr/share/nginx/html/index.html
-    subPath: index.html
-  # - name: foo
+   # - name: foo
   #   mountPath: "/etc/foo"
   #   readOnly: true
 
